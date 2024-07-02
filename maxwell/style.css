@@ -1,0 +1,141 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./image/WhatsApp\ Image\ 2024-06-29\ at\ 20.32.02_116c451e.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0 ;
+    overflow-y: hidden;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-top: -300%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s all ease;
+
+}
+.navbar ul li a:hover{
+    color: #bbb;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 200px;
+    margin-left: -50%;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: -50%;
+}
+button{
+    color: #fff;
+    background-color: rgb(4, 155, 255);
+    border: none;
+    border-radius: 2px;
+    width: 95px;
+    height: 40px;
+    text-decoration: none;
+}
+
+
+.hero{
+    height: calc(100vh - 80px);
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background: url(./image/232.jpg);
+    color: #fff;
+}
+.hero > img{
+    max-width: 520px;
+    width: 44%;
+    border-radius: 26px;
+}
+.hero .left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.hero .left-section .top h2{
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.hero .left-section .top p{
+    color: #606060;
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.hero .left-section .top .buttons{
+    display: flex;
+    gap: 8px;
+}
+
+.hero .left-section .top .buttons button,
+.projects .inner > button,
+.contact .items .item button{
+    font-size: 1;
+    border: none;
+    background: rgb(4, 155, 255);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.hero .left-section .bottom p{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+.hero .left-section .bottom .icons{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+@media screen {
+    
+}
